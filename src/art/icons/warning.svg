@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <title>Warning</title>
+  <path d="M32 8 L59 54 H5 Z"/>
+  <path d="M32 24 V38"/>
+  <path d="M32 45.5 V46.5"/>
+</svg>

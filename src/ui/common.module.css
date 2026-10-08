@@ -1,0 +1,83 @@
+.btn {
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  padding: 4px 8px;
+  cursor: pointer;
+  touch-action: none;
+  user-select: none;
+}
+.btn:hover:not(:disabled) {
+  border-color: var(--accent-dim);
+}
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.btnPrimary {
+  composes: btn;
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #1b1d20;
+  font-weight: 600;
+}
+.mono {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+}
+.label {
+  color: var(--text-dim);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.warnText {
+  color: var(--warn);
+  font-size: 12px;
+}
+.icon {
+  display: inline-block;
+  background-color: currentColor;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+  flex: none;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 6px;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  cursor: pointer;
+  text-align: center;
+  font-size: 12px;
+}
+.card[aria-pressed='true'] {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+  color: var(--accent);
+}
+.cardBroken {
+  composes: card;
+  border-color: var(--danger) !important;
+  color: var(--danger) !important;
+}
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 6px;
+}
+.cardNote {
+  color: var(--text-dim);
+  font-size: 10px;
+  line-height: 1.2;
+}

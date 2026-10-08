@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <title>Turning tool</title>
+  <path d="M6 22 H36 L58 44 H6 Z"/>
+  <path d="M18 22 V44"/>
+  <path d="M50 36 L58 44"/>
+  <path d="M58 44 H46"/>
+</svg>

@@ -1,0 +1,92 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.dirHint {
+  color: var(--text-dim);
+  font-size: 11px;
+}
+.body {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.wheel {
+  cursor: grab;
+  touch-action: none;
+  flex: none;
+  border-radius: 50%;
+}
+.wheel:active {
+  cursor: grabbing;
+}
+.collar {
+  fill: #1f2226;
+  fill-opacity: 0.55;
+  stroke: #9aa0a6;
+  stroke-width: 1;
+}
+.tick {
+  stroke: #c9ccd0;
+  stroke-width: 0.8;
+}
+.tickMajor {
+  stroke: #ffffff;
+  stroke-width: 1.6;
+}
+.tickLabel {
+  fill: #e8e6e3;
+  font-family: var(--mono);
+  font-size: 9px;
+}
+.index {
+  fill: var(--accent);
+}
+.indexLine {
+  stroke: var(--accent);
+  stroke-width: 2.5;
+}
+.readoutBg {
+  fill: #111316;
+  stroke: var(--border);
+}
+.readout {
+  fill: var(--accent);
+  font-family: var(--mono);
+  font-size: 18px;
+  font-weight: 700;
+}
+.side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.bigReading {
+  font-family: var(--mono);
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+}
+.position {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--text);
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 4px;
+}
+.buttons button {
+  padding: 4px 2px;
+  font-size: 12px;
+  font-family: var(--mono);
+}

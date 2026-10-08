@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <title>Carriage</title>
+  <rect x="24" y="8" width="16" height="10" rx="2"/>
+  <rect x="8" y="18" width="48" height="14" rx="2"/>
+  <path d="M16 32 V50 H40 V32"/>
+  <path d="M4 56 H60"/>
+</svg>

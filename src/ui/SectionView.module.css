@@ -1,0 +1,77 @@
+.svg {
+  display: block;
+  background: #15171a;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  max-width: 100%;
+  height: auto;
+}
+.grid line {
+  stroke: #2a2e34;
+  stroke-width: 0.5;
+}
+.grid .gridMajor {
+  stroke: #3d434b;
+}
+.gridLabel {
+  fill: var(--text-dim);
+  font-family: var(--mono);
+  font-size: 9px;
+}
+.axis {
+  stroke: var(--text-dim);
+  stroke-dasharray: 8 3 2 3;
+  stroke-width: 0.8;
+}
+.chuck {
+  fill: #3b3f45;
+}
+.jaws {
+  fill: #5b6068;
+  stroke: #80868e;
+  stroke-width: 0.6;
+}
+.mat_brass {
+  fill: #c9a24a;
+  stroke: #f0d58a;
+  stroke-width: 0.6;
+}
+.mat_aluminum {
+  fill: #b8bec6;
+  stroke: #e2e6ea;
+  stroke-width: 0.6;
+}
+.mat_steel {
+  fill: #8a9099;
+  stroke: #c3c8ce;
+  stroke-width: 0.6;
+}
+.mat_delrin {
+  fill: #e9e5dc;
+  stroke: #ffffff;
+  stroke-width: 0.6;
+}
+.bore {
+  fill: #15171a;
+  fill-opacity: 0.6;
+}
+.tool {
+  fill: var(--accent);
+  fill-opacity: 0.75;
+  stroke: var(--accent);
+}
+.quill {
+  fill: #4a4f57;
+  fill-opacity: 0.8;
+}
+.drill {
+  fill: #9aa3ad;
+  stroke: #d0d6dc;
+  stroke-width: 0.6;
+}
+.readout {
+  fill: var(--accent);
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 700;
+}
